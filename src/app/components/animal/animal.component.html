@@ -1,0 +1,32 @@
+
+<div class="mb-5">
+    <div>
+     <div class="row mt-3">
+        <div class="col">
+            <input class="form-control" name="title" type="text" placeholder="Search something" (change)="changeText()" [(ngModel)]="title">
+        </div>
+        <div class="col">
+            <button class="btn btn-primary">Search</button>
+        </div>
+
+        <div class="mt-4">
+            <p>{{ title }}</p>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-6 mb-3">
+                <img class="img-fluid" style="width: 400px; height: 230px;" src="assets/images/animal.jpeg" alt="" srcset="">
+            </div>
+            <div class="col-lg-6 b-3">
+                <img class="img-fluid" style="width: 400px; height: 230px;" src="assets/images/animal1.jpeg" alt="" srcset="">
+            </div>
+            <div class="col b-3">
+                <img class="img-fluid" style="width:auto; height: 300px;" src="assets/images/animal2.avif" alt="" srcset="">
+            </div>
+        </div>
+        
+     </div>
+    </div>
+</div>
